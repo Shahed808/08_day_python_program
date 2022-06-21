@@ -37,7 +37,40 @@
 # print(d)
 
 
-f = input()
-print(type(f))
+
+''' Other string methods practise session'''
+
+# print(isinstance("Hello!",int))             # False
+# print(isinstance(" Thanos",str))            # True
+# print(isinstance("Iron man",float))         # False
+
+
+
+# r = '    I am an hacker!😎'        
+# print(r.find('a'))          # 6
+# print(len(r))             # 20
+# print(r.rfind('a'))          # 13
+
+
+
+t = '123654125'          # False
+print(t.isalpha())         
+print('Hacker!✌️'.isalpha())   # False
+print("Programmer".isalpha())      # True
+ 
+
+v = "Environment"
+print(v.isalnum())         # True 
+print('_.encoding'.isalnum())        # False
+print('~@<>?'.isalnum())        # False
+
+
+# print('45623'.isdecimal())       # True
+# print(''.isdecimal())            # False
+# print('python'.isdecimal())     # False
+
+
+
+
 
 
